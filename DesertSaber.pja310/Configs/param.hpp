@@ -34,8 +34,8 @@ class Params {
 
 	class cys_enigma_systems {
 		title = "Civilian Traffic System";
-		texts[] = {""};
-		values[] = {1};
+		texts[] = {"Disable", "Enable"};
+		values[] = {0, 1};
 		default = 0;
 	};
 	class cys_ambiant_civilian_driving {

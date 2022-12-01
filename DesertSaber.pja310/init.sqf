@@ -14,7 +14,11 @@ if (_setDaytime > -1) then {
     _setDaytime call  BIS_fnc_paramDaytime;
 };
 
-
+cys_enigma_systems
+private _enableTraffic = ["cys_enigma_systems", 0] call BIS_fnc_getParamValue;
+if(_enableTraffic > 0) then{
+    call compile preprocessFileLineNumbers "Engima\Traffic\Init.sqf";
+}
 
 
 ["ALiVE | Desert Saber - Executing init.sqf..."] call ALiVE_fnc_Dump;
