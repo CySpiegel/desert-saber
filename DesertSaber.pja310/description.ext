@@ -1,0 +1,39 @@
+// Mission Header
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 40;
+	playerCountMultipleOf = 1;
+};
+
+disabledAI = 1; 
+
+respawn = 3;
+respawnTemplates[] = { "MenuPosition","Spectator"};
+respawnOnStart = 0;
+
+
+class CfgFunctions {
+    #include "cau\userinputmenus\CfgFunctions.cpp"
+	#include "ASORVS\cfgfunctions.hpp"
+	#include "KPCF\KPCF_functions.hpp"
+};
+
+#include "cau\userinputmenus\systems\_macros.inc"
+#include "cau\userinputmenus\systems\_defines.inc"
+#include "cau\userinputmenus\controls.cpp"
+#include "cau\userinputmenus\systems\displayColorPicker.cpp"
+#include "cau\userinputmenus\systems\displayGuiMessage.cpp"
+#include "cau\userinputmenus\systems\displayListbox.cpp"
+#include "cau\userinputmenus\systems\displayListboxMulti.cpp"
+#include "cau\userinputmenus\systems\displayProgressBar.cpp"
+#include "cau\userinputmenus\systems\displaySlider.cpp"
+#include "cau\userinputmenus\systems\displayText.cpp"
+#include "cau\userinputmenus\systems\displayTextMulti.cpp"
+#include "ASORVS\menu.hpp"
+#include "KPGUI\KPGUI_defines.hpp"
+#include "KPCF\ui\KPCF_dialog.hpp"
+#include "BRS\defines.hpp"
+#include "BRS\dialogs.hpp"
+#include "Configs\param.hpp"
