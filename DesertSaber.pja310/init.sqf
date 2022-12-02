@@ -14,14 +14,14 @@ if (_setDaytime > -1) then {
     _setDaytime call  BIS_fnc_paramDaytime;
 };
 
-cys_enigma_systems
+
 private _enableTraffic = ["cys_enigma_systems", 0] call BIS_fnc_getParamValue;
 if(_enableTraffic > 0) then{
     call compile preprocessFileLineNumbers "Engima\Traffic\Init.sqf";
-}
+};
 
 
-["ALiVE | Desert Saber - Executing init.sqf..."] call ALiVE_fnc_Dump;
+//["ALiVE | Desert Saber - Executing init.sqf..."] call ALiVE_fnc_Dump;
 
 //Disable Vcom on vehicles
 [{{Driver _x setvariable ["NOAI",true];} foreach (vehicles select {_x isKindOf 'air'});}, 1, []] call CBA_fnc_addPerFrameHandler;
