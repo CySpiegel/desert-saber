@@ -36,7 +36,7 @@ class Params {
 		title = "Civilian Traffic System";
 		texts[] = {"Disable", "Enable"};
 		values[] = {0, 1};
-		default = 0;
+		default = 1;
 	};
 	class cys_ambiant_civilian_driving {
 		title = "			Ambiant Drivers Limit";
@@ -49,7 +49,7 @@ class Params {
 		title = "			Ambiant Drivers Headless Client (only use if HC1 is connected)";
 		texts[] = {"Disabeld","Enabled";};
 		values[] = {0,1};
-		default = 0;
+		default = 1;
 	};
 
 	class cys_playerCap_systems {

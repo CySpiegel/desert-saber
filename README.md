@@ -12,7 +12,7 @@
 - Get Mission Intro Finished and initial Nation Selection
 - Put in Briefing for Medical 
 - Create Mission Briefing Area
-- Aircraft RRR needs to be put in
+x Aircraft RRR needs to be put in
 - AI Based Transport Services using Blackhawk and Ch-47 Check possible VIV functionality
 - Fix Recruitment Stations to show faction flags
 - Make Optional PBO and Server Keys
