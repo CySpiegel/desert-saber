@@ -15,7 +15,7 @@ this addAction["Add spawn point", {
                     else { 
                         ["Respawn Already Exists"] remoteExec["hint"]; 
                     } 
-                } 
+                }
             },[_target]], 
             "Submit", 
             "" 
