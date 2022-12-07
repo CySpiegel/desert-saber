@@ -154,9 +154,10 @@ objNull spawn {
 									"CFP_B_USMC_RHIB_Mk19_DES_01", 
 									"CFP_B_USMC_Zodiac_DES_01", 
 									"CUP_B_LCU1600_USMC", 
-									"B_SDV_01_F"];
+									"B_SDV_01_F",
+									"B_Truck_01_box_F"];
 
-	private _doNotDdeleteObject = "PortableHelipadLight_01_green_F";
+	private _doNotDdeleteObject = "PortableHelipadLight_01_red_F";
 	private _currentBudget = supply_factory getVariable "R3F_LOG_CF_credits";
 	private _vehicleCost = ["cys_vechile_cost", 100] call BIS_fnc_getParamValue;
 	private _allowedVehicleRefunWorth = ["cys_vechile_refund_allowed", 100] call BIS_fnc_getParamValue;

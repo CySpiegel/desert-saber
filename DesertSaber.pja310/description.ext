@@ -13,6 +13,21 @@ respawn = 3;
 respawnTemplates[] = { "MenuPosition","Spectator"};
 respawnOnStart = 0;
 
+// Forces Advanced Flight model on heli
+forceRotorLibSimulation = 1;
+
+// Management of dead things in the mission
+// Distance is in meters
+corpseManagerMode = 1;
+corpseLimit = 50;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 1;
+wreckLimit = 20;
+wreckRemovalMinTime = 1200;
+wreckRemovalMaxTime = 7200;
+minPlayerDistance = 1000;
+
 
 class CfgFunctions {
     #include "cau\userinputmenus\CfgFunctions.cpp"

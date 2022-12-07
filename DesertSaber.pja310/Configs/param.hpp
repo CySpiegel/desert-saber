@@ -4,7 +4,7 @@ class Params {
 		title = "Server Auto Save (Does not do a Full Save, User Server Save & Exit)";
 		texts[] = {"Disable Auto Save", "Every 1 Hour", "Every 2 Hours", "Every 3 Hours"};
 		values[] = {-1, 3600, 7200, 10800};
-		default = 3600;
+		default = 10800;
 	};
 	class cys_Daytime
 	{

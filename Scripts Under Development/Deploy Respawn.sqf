@@ -7,10 +7,10 @@ this addAction["Add spawn point", {
                 params ["_target"]; 
                 if _confirmed then { 
                     if !(_text in ([west, true] call BIS_fnc_getRespawnpositions)) then { 
-                        systemchat format["Submitted flavour: %1", _text]; 
+                        systemchat format["Deploying Respawn Point: %1", _text]; 
                         [west, getPos _target, _text] remoteExec["BIS_fnc_addRespawnPosition", 0, true]; 
                         [_target, 3] remoteExec["BIS_fnc_dataTerminalAnimate", 0, true]; 
-                        removeAllActions _target; 
+                        [_target] remoteExec ["removeAllActions", 0 ,true];
                     } 
                     else { 
                         ["Respawn Already Exists"] remoteExec["hint"]; 

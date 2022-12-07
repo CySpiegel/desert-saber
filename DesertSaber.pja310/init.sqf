@@ -24,7 +24,7 @@ if(_enableTraffic > 0) then{
 //["ALiVE | Desert Saber - Executing init.sqf..."] call ALiVE_fnc_Dump;
 
 //Disable Vcom on vehicles
-[{{Driver _x setvariable ["NOAI",true];} foreach (vehicles select {_x isKindOf 'air'});}, 1, []] call CBA_fnc_addPerFrameHandler;
+//[{{Driver _x setvariable ["NOAI",true];} foreach (vehicles select {_x isKindOf 'air'});}, 1, []] call CBA_fnc_addPerFrameHandler;
 
 if (isServer) then {
     [] call compileFinal preprocessFileLineNumbers "Scripts\server\init_server.sqf";
