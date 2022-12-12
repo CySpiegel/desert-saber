@@ -1,6 +1,6 @@
 _array =  
 [ 
- ["Ammunition","Building Supplies","Containers","Fule", "Construction Vehicles","Prefab Buildings","Vehicle Parts","Vehicles"],  
+ ["Ammunition","Supplies","Containers"],  
  [ 
  
   [ 
@@ -10,14 +10,13 @@ _array =
   ], 
   [ 
    ["Land_Boxloader_Pallet_5", 100], 
-   ["Boxloader_drumpallet_fuel", 100], 
-   ["Land_Boxloader_Hesco_BigFlat", 100], 
+   ["Boxloader_drumpallet_fuel", 100],
    ["Boxloader_sixcon_fuel", 100], 
-   ["Land_Boxloader_Crate_Roofrack", 100], 
-   ["Land_Boxloader_Fort_Plat_Flat", 100], 
-   ["Land_Boxloader_Fort_Wall_Flat", 100] 
+   ["Land_Boxloader_Crate_Roofrack", 100],
+   ["FlexibleTank_01_forest_F", 100],
+   ["ACE_Wheel", 100], 
+   ["ACE_Track", 100] 
   ], 
- 
   [ 
    ["Land_Boxloader_iso_20ft_black", 100], 
    ["Land_Boxloader_iso_20ft_seabee", 100], 
@@ -31,24 +30,6 @@ _array =
    ["Land_Boxloader_iso_tricon", 100], 
    ["Land_Boxloader_iso_tricon_green", 100], 
    ["Land_Boxloader_iso_tricon_black", 100] 
-    
-  ], 
- 
-  [ 
-   ["FlexibleTank_01_forest_F", 100] 
- 
-  ], 
- 
-  [ 
-   ["boxloader_tool_cart", 100], 
-   ["boxloader_tractor_build", 100] 
-  ], 
- 
-  [ 
-  ], 
-  [ 
-   ["ACE_Wheel", 100], 
-   ["ACE_Track", 100] 
   ]
  ] 
 ];  

@@ -21,6 +21,8 @@ if(_enableTraffic > 0) then{
 };
 
 
+
+//R3F_LOG_CFG_can_transport_cargo = [];
 //["ALiVE | Desert Saber - Executing init.sqf..."] call ALiVE_fnc_Dump;
 
 //Disable Vcom on vehicles

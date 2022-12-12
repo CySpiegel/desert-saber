@@ -1,5 +1,10 @@
 objNull spawn {
-	private _approvedRefundList = ["CFP_B_USRANGERS_AH_64D_WDL_01", 
+	private _approvedRefundList = [
+									"JS_JC_FA18E",  
+									"JS_JC_FA18F",  
+									"F16_MN_Sqn_USAF_CA",
+									"Peral_A10C",  
+									"CFP_B_USRANGERS_AH_64D_WDL_01", 
 									"CFP_B_USRANGERS_AH_6J_WDL_01", 
 									"CFP_B_USRANGERS_AH_6M_WDL_01", 
 									"CFP_B_USRANGERS_CH_47F_VIV_WDL_01", 

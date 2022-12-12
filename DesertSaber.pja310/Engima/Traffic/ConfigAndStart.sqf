@@ -27,18 +27,18 @@ _civ_parameters = [
 
 
 // Set traffic patrols.
-_enemy_parameters = [
-	["SIDE", independent],
-	["VEHICLES", ["CFP_I_IS_Hilux_01", "cfp_i_is_LR_M2", "cfp_i_is_offroad_M2"]],
-	["VEHICLES_COUNT", _enemyVehicLeLimit],
-	["MIN_SPAWN_DISTANCE", 800],
-	["MAX_SPAWN_DISTANCE", 3500],
-	["MIN_SKILL", 0.4],
-	["MAX_SKILL", 0.6],
-	["AREA_MARKER", "patroll"],
-	["HIDE_AREA_MARKER", true],
-	["DEBUG", false]
-];
+// _enemy_parameters = [
+// 	["SIDE", independent],
+// 	["VEHICLES", ["CFP_I_IS_Hilux_01", "cfp_i_is_LR_M2", "cfp_i_is_offroad_M2"]],
+// 	["VEHICLES_COUNT", _enemyVehicLeLimit],
+// 	["MIN_SPAWN_DISTANCE", 800],
+// 	["MAX_SPAWN_DISTANCE", 3500],
+// 	["MIN_SKILL", 0.4],
+// 	["MAX_SKILL", 0.6],
+// 	["AREA_MARKER", "patroll"],
+// 	["HIDE_AREA_MARKER", true],
+// 	["DEBUG", false]
+// ];
 
 // Start an instance of the traffic
 if (_civilianVehicLeLimit > 0) then {
