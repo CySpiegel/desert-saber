@@ -7,6 +7,7 @@ if (ALiVE_SYS_DATA_SOURCE isEqualTo "pns") then {
 	_saveInterval call ALiVE_fnc_AutoSave_PNS;
 };
 
+// Enable Group management from U key
 ["Initialize", [true]] call BIS_fnc_dynamicGroups; 
 
 addMissionEventHandler ["HandleDisconnect",

@@ -1,5 +1,11 @@
 objNull spawn {
 	private _approvedRefundList = [
+									"vtx_MH60M",  
+									"vtx_MH60M_DAP",  
+									"vtx_MH60M_DAP_MLASS",  
+									"vtx_UH60M",  
+									"vtx_UH60M_MEDEVAC",  
+									"vtx_UH60M_SLICK""F16_MN_Sqn_USAF_CA",
 									"JS_JC_FA18E",  
 									"JS_JC_FA18F",  
 									"F16_MN_Sqn_USAF_CA",

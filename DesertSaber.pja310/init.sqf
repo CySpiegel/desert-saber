@@ -14,15 +14,20 @@ if (_setDaytime > -1) then {
     _setDaytime call  BIS_fnc_paramDaytime;
 };
 
-
+// Get parameter for Civilian traffic enable/disable
 private _enableTraffic = ["cys_enigma_systems", 0] call BIS_fnc_getParamValue;
 if(_enableTraffic > 0) then{
     call compile preprocessFileLineNumbers "Engima\Traffic\Init.sqf";
 };
 
+// Start Bon Recruitment
+[] execVM "bon_recruit_units\init.sqf";
 
 
-//R3F_LOG_CFG_can_transport_cargo = [];
+// Start Task Removal System for custom missions
+call compile preprocessFileLineNumbers "removeTasks.sqf";
+
+
 //["ALiVE | Desert Saber - Executing init.sqf..."] call ALiVE_fnc_Dump;
 
 //Disable Vcom on vehicles
