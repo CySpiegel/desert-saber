@@ -46,6 +46,7 @@ class CfgFunctions {
 #include "cau\userinputmenus\systems\displaySlider.cpp"
 #include "cau\userinputmenus\systems\displayText.cpp"
 #include "cau\userinputmenus\systems\displayTextMulti.cpp"
+#include "ATM_airdrop\dialog.hpp"
 #include "ASORVS\menu.hpp"
 #include "KPGUI\KPGUI_defines.hpp"
 #include "KPCF\ui\KPCF_dialog.hpp"
